@@ -93,5 +93,16 @@ fig.show()
 
 
 #finding the z score using the formula
+
+
+X¯: mean of the sample.
+Mu: mean of the population.
+Sd: Standard deviation of the population.
+n: sample size.
+    
+    
+    z=(X-mu)/(sd-sqrt(n))
+    
+    
 z_score = (mean - mean_of_sample2)/std_deviation
 print("The z score is = ",z_score)

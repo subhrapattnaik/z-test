@@ -98,7 +98,14 @@ n: sample size.
     
     z score= (X-mu)/(sd/sqrt(n))
     
+    Type of Z-test
+
+Left-tailed Test: In this test, our region of rejection is located to the extreme left of the distribution. Here our null hypothesis is that the claimed value is less than or equal to the mean population value.
     
+    
+    Right-tailed Test: In this test, our region of rejection is located to the extreme right of the distribution. Here our null hypothesis is that the claimed value is less than or equal to the mean population value.
+        
+Two-tailed test: In this test, our region of rejection is located to both extremes of the distribution. Here our null hypothesis is that the claimed value is equal to the mean population value.
 #finding the z score using the formula
 z_score = (mean - mean_of_sample2)/std_deviation
 print("The z score is = ",z_score)

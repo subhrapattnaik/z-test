@@ -91,7 +91,14 @@ fig.add_trace(go.Scatter(x=[second_std_deviation_end, second_std_deviation_end],
 fig.add_trace(go.Scatter(x=[third_std_deviation_end, third_std_deviation_end], y=[0, 0.17], mode="lines", name="STANDARD DEVIATION 3 END"))
 fig.show()
 
-
+X¯: mean of the sample.
+Mu: mean of the population.
+Sd: Standard deviation of the population.
+n: sample size.
+    
+    z score= (X-mu)/(sd/sqrt(n))
+    
+    
 #finding the z score using the formula
 z_score = (mean - mean_of_sample2)/std_deviation
 print("The z score is = ",z_score)
